@@ -1,13 +1,5 @@
 import React from "react";
+import { Footer } from "./Footer";
+import { NavBar } from "./NavBar";
 import { Nav } from "./Nav";
-export { Nav, Footer };
-
-const Footer = () => {
-  return (
-    <>
-      <footer>
-        <p>Footer</p>
-      </footer>
-    </>
-  );
-};
+export { Footer, NavBar, Nav };

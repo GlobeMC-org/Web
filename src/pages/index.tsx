@@ -1,4 +1,5 @@
 import { Main } from "./Main";
 import { Info } from "./Info";
 import { Store } from "./Store";
-export { Main, Info, Store };
+import { Coords } from "./Coords";
+export { Main, Info, Store, Coords };

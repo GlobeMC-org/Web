@@ -1,0 +1,16 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+.main {
+  padding: 10px;
+
+  h2,
+  p {
+    margin: 0;
+    text-align: center;
+    color: #e7e7e7;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+}

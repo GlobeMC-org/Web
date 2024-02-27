@@ -12,6 +12,7 @@ export const App = () => {
           <Route index element={<Pages.Main />} />
           <Route path="/info" element={<Pages.Info />} />
           <Route path="/store" element={<Pages.Store />} />
+          <Route path="/coords" element={<Pages.Coords />} />
         </Route>
       </Routes>
     </BrowserRouter>
